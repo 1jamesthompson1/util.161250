@@ -16,4 +16,5 @@ URL: https://github.com/1jamesthompson1/util.161250
 BugReports: https://github.com/1jamesthompson1/util.161250/issues
 Imports: 
     devtools,
+    stats,
     styler
