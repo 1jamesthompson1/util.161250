@@ -1,5 +1,5 @@
 test_that("my render works", {
-  if (iteractive()) {
+  if (interactive()) {
     expect_no_warning(.renderAndStyle("../../../util.161250"))
   }
 })
