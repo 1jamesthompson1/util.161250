@@ -11,6 +11,7 @@ code](https://tokei.rs/b1/github/1jamesthompson1/util.161250?category=code)
 comments](https://tokei.rs/b1/github/1jamesthompson1/util.161250?category=comments)  
 ![Build
 status](https://img.shields.io/github/actions/workflow/status/1jamesthompson1/util.161250/check-standard.yaml)
+![Codecov](https://img.shields.io/codecov/c/github/1jamesthompson1/util.161250)
 
 <!-- badges: end -->
 
