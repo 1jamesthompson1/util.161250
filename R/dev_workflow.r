@@ -9,7 +9,7 @@
 
   # the readme can only be built when in the base package location
   # It will also only run if the readme file is newer.
-  if (location == "." && file.info("README.Rmd")$mtime > file.info("README.Rmd")$mtime) {
+  if (location == "." && file.info("README.Rmd")$mtime > file.info("README.md")$mtime) {
     devtools::build_readme(location)
   }
 }
