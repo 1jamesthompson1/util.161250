@@ -1,6 +1,8 @@
 test_that("row profile", {
-  tabledata <- structure(c(18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
-                           2), dim = c(5L, 3L))
+  tabledata <- structure(c(
+    18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
+    2
+  ), dim = c(5L, 3L))
 
   observed <- data_profile(tabledata)
 
@@ -13,8 +15,10 @@ test_that("row profile", {
 })
 
 test_that("col profile", {
-  tabledata <- structure(c(18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
-                           2), dim = c(5L, 3L))
+  tabledata <- structure(c(
+    18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
+    2
+  ), dim = c(5L, 3L))
 
   observed <- data_profile(tabledata, FALSE)
 
@@ -27,8 +31,10 @@ test_that("col profile", {
 })
 
 test_that("plot without error", {
-  tabledata <- structure(c(18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
-                           2), dim = c(5L, 3L))
+  tabledata <- structure(c(
+    18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
+    2
+  ), dim = c(5L, 3L))
 
   observed <- data_profile(tabledata)
 
@@ -36,8 +42,10 @@ test_that("plot without error", {
 })
 
 test_that("plot without error", {
-  tabledata <- structure(c(18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
-                           2), dim = c(5L, 3L))
+  tabledata <- structure(c(
+    18, 4, 10, 25, 4, 57, 10, 13, 22, 5, 13, 4, 2, 4,
+    2
+  ), dim = c(5L, 3L))
 
   observed <- data_profile(tabledata, FALSE)
 
