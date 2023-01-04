@@ -1,9 +1,10 @@
-^util\.161250\.Rproj$
-^\.Rproj\.user$
+^.tokeignore$
 ^LICENSE\.md$
 ^README\.Rmd$
+^\.Rproj\.user$
 ^\.github$
-^.tokeignore$
+^\.pre-commit-config\.yaml$
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^util\.161250\.Rproj$
