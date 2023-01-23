@@ -12,6 +12,7 @@ Functions that have been made to speed up my course work for 161.250 at Massey U
 Useful links:
 \itemize{
   \item \url{https://github.com/1jamesthompson1/util.161250}
+  \item \url{https://1jamesthompson1.github.io/util.161250/}
   \item Report bugs at \url{https://github.com/1jamesthompson1/util.161250/issues}
 }
 

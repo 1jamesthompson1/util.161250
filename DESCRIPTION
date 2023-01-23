@@ -8,7 +8,7 @@ Description: Functions that have been made to speed up my course work for 161.25
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.2
+RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
@@ -19,6 +19,7 @@ Imports:
     devtools,
     dplyr,
     ggplot2,
+    methods,
     stats,
     styler,
     tidyr
