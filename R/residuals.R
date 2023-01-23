@@ -18,7 +18,7 @@ residuals_list <- function(lm = NULL) {
          with lm() to make the table with")
   }
 
-  residuals <- stats::residuals(lm)
+  residuals <- stats::resid(lm)
 
   rstandard <- stats::rstandard(lm)
 
@@ -56,7 +56,7 @@ plot.residuals.data <- function(x, ...) {
     tidyr::pivot_longer(2:4, names_to = "type", values_to = "residual") |>
     ggplot(aes(fitted, residual)) +
     geom_point() +
-    facet_wrap(~type, ncol = 3) +
+    facet_wrap(~type, ncol = 3, scales = "free") +
     theme_minimal()
 }
 
